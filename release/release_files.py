@@ -56,7 +56,7 @@ sunnypilot_blacklist = [
   ".run/",
   ".run/",
   ".*__pycache__/.*",
-  ".*\.pyc",
+  "*.pyc",
   "tinygrad/*",
   "teleoprtc/*",
   "third_party/snpe/x86_64/*",
