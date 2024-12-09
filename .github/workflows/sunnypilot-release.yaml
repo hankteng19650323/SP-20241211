@@ -124,6 +124,7 @@ jobs:
             --exclude='**/.git/' \
             --exclude='**/SConstruct' \
             --exclude='**/SConscript' \
+            --exclude='**/.venv/' \
             --delete-excluded \
             --chown=comma:comma \
             ${BUILD_DIR}/ ${OUTPUT_DIR}/
